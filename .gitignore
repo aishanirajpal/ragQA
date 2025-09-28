@@ -81,4 +81,4 @@ data/
 uploads/
 
 # Configuration files
-.config/
+config/

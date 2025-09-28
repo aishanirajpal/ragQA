@@ -61,3 +61,24 @@ coverage.xml
 .pytest_cache/
 # Ignore Chroma DB files
 chroma_db/
+
+# Hugging Face model cache
+.cache/
+huggingface/
+
+# Model downloads and cache
+models/
+*.bin
+*.safetensors
+
+# Logs and temporary files
+*.log
+*.tmp
+temp/
+
+# User uploaded data files
+data/
+uploads/
+
+# Configuration files
+.config/
